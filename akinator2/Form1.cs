@@ -26,6 +26,11 @@ namespace akinator2
         }
         int step = 0;
 
+        void start_events() {
+            button1.Text = "Начать заново";
+            textBox1.Visible = false;
+            label1.Visible = false;
+        }
 
         void game()
         {
@@ -44,7 +49,8 @@ namespace akinator2
             {
                 if (textBox1.Text.ToLower() == "да")
                 {
-                    richTextBox1.Text = "Я знаю персоножа которого ты загадал!\n Это Венди!!";
+                    start_events();
+                    richTextBox1.Text = "Я знаю персоножа которого ты загадал!\n Это Венди!";
                     pictureBox1.Image = Properties.Resources._267px_Wendy_sp;
                     pictureBox1.Visible = true;
                     step = 6;
@@ -60,7 +66,8 @@ namespace akinator2
             {
                 if (textBox1.Text.ToLower() == "да")
                 {
-                    richTextBox1.Text = "Я знаю кого ты загадал!\nЭто Кенни.\nО боже нет! Они убили Кенни!!\nСВОЛОЧИ!!!";
+                    start_events();
+                    richTextBox1.Text = "Я знаю кого ты загадал!\nЭто Кенни.\nО боже нет! Они убили Кенни!";
                     pictureBox1.Image = Properties.Resources.kenny;
                     pictureBox1.Visible = true;
                     step = 6;
@@ -75,7 +82,8 @@ namespace akinator2
             {
                 if (textBox1.Text.ToLower() == "да")
                 {
-                    richTextBox1.Text = "Я знаю персонажа которого ты загадал!\nЭто Картман!!!";
+                    start_events();
+                    richTextBox1.Text = "Я знаю персонажа которого ты загадал!\nЭто Картман!";
                     pictureBox1.Image = Properties.Resources._274px_Cartman_sp;
                     pictureBox1.Visible = true;
                     step = 6;
@@ -91,14 +99,16 @@ namespace akinator2
             {
                 if (textBox1.Text.ToLower() == "да")
                 {
-                    richTextBox1.Text = "Я знаю персонажа которого ты загадал!\nЭто Кайл!!";
+                    start_events();
+                    richTextBox1.Text = "Я знаю персонажа которого ты загадал!\nЭто Кайл!";
                     pictureBox1.Image = Properties.Resources._274px_Kyle2;
                     pictureBox1.Visible = true;
                     step = 6;
                 }
                 else if (textBox1.Text.ToLower() == "нет")
                 {
-                    richTextBox1.Text = "Я знаю персонажа которого ты загадал!\nЭто Стэн!!!";
+                    start_events();
+                    richTextBox1.Text = "Я знаю персонажа которого ты загадал!\nЭто Стэн!";
                     pictureBox1.Image = Properties.Resources.StanMarsh;
                     pictureBox1.Visible = true;
                     step = 6;
@@ -117,6 +127,11 @@ namespace akinator2
         private void Button1_Click(object sender, EventArgs e)
         {
             game();
+        }
+
+        private void RichTextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

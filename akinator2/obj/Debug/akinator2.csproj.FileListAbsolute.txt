@@ -8,3 +8,13 @@ C:\Users\OOP14\source\repos\akinator2\akinator2\obj\Debug\akinator2.csproj.Gener
 C:\Users\OOP14\source\repos\akinator2\akinator2\obj\Debug\akinator2.csproj.CoreCompileInputs.cache
 C:\Users\OOP14\source\repos\akinator2\akinator2\obj\Debug\akinator2.exe
 C:\Users\OOP14\source\repos\akinator2\akinator2\obj\Debug\akinator2.pdb
+C:\Users\OOP14\Desktop\akinator2\akinator2\bin\Debug\akinator2.exe.config
+C:\Users\OOP14\Desktop\akinator2\akinator2\bin\Debug\akinator2.exe
+C:\Users\OOP14\Desktop\akinator2\akinator2\bin\Debug\akinator2.pdb
+C:\Users\OOP14\Desktop\akinator2\akinator2\obj\Debug\akinator2.csprojAssemblyReference.cache
+C:\Users\OOP14\Desktop\akinator2\akinator2\obj\Debug\akinator2.Form1.resources
+C:\Users\OOP14\Desktop\akinator2\akinator2\obj\Debug\akinator2.Properties.Resources.resources
+C:\Users\OOP14\Desktop\akinator2\akinator2\obj\Debug\akinator2.csproj.GenerateResource.cache
+C:\Users\OOP14\Desktop\akinator2\akinator2\obj\Debug\akinator2.csproj.CoreCompileInputs.cache
+C:\Users\OOP14\Desktop\akinator2\akinator2\obj\Debug\akinator2.exe
+C:\Users\OOP14\Desktop\akinator2\akinator2\obj\Debug\akinator2.pdb
